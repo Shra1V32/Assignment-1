@@ -1,0 +1,4 @@
+Before function call x=100 
+Before adding value inside function num=100 
+After adding value inside function num=200 
+After function call x=100 
