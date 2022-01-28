@@ -1,0 +1,35 @@
+Enter your rows and columns in 1st array: 3
+3
+Enter your rows and columnsin 2nd array: 3
+3
+Enter the elements in your 1st matrix: 1
+2
+3
+4
+5
+6
+7
+8
+9
+Your values in the 1st array are:
+ 1 2 3
+ 4 5 6
+ 7 8 9
+Enter the elements in your 2st matrix: 1
+2
+3
+4
+5
+6
+7
+8
+9
+Your values in the 2st array are:
+ 1 2 3
+ 4 5 6
+ 7 8 9
+
+
+ 2 4 6
+ 8 10 12
+ 14 16 18
