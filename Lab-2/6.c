@@ -4,7 +4,7 @@ int main()
 {
     int a[20][20],i,j,r,c,identity;
     printf("Enter your number of rows and columns in the matrix: ");
-    scanf("%d%d",&r,&c);
+    scanf(" %d%d",&r,&c);
     printf("Enter the elements in the matrix: \n");
     for (i=0; i<r; i++)
     for (j=0; j<c; j++)
@@ -15,8 +15,11 @@ int main()
         {
             if (i==j && a[i][j]==1)
             identity=1;
-            else
+            else if (i==j && a[i][j]!=1)
+            {
             identity=0;
+            break;
+            }
         }
     }
     if (identity == 1)
