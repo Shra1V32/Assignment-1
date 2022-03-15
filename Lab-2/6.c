@@ -13,16 +13,17 @@ int main()
     {
         for (j=0; j<c; j++)
         {
-            if (i==j && a[i][j]==1)
-            identity=1;
-            else if (i==j && a[i][j]!=1)
-            {
+            if (i==j && a[i][j]!=1) {
+            break;
+            identity=0;
+            }
+            if (i!=j && a[i][j]!=0) {
             identity=0;
             break;
             }
         }
     }
-    if (identity == 1)
+    if (identity != 0)
     printf("Given matrix is an identity matrix");
     else
     printf("Given matrix is not an identity matrix");
